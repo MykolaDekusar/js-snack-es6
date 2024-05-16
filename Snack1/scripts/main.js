@@ -7,7 +7,7 @@ const biciCorsa = [
     },
     {
         nome: 'Sport',
-        peso: '2kg'
+        peso: '10kg'
     },
     {
         nome: 'Mountain Bike',
@@ -15,24 +15,24 @@ const biciCorsa = [
     },
     {
         nome: 'Classic',
-        peso: '12kg'
+        peso: '21kg'
     },
     {
         nome: 'Electric',
-        peso: '25kg'
+        peso: '2kg'
     },
 ]
 //initialising weight to first bike
 let minWeight = parseInt(biciCorsa[0].peso);
 let counter = 0;
 //comparing the first weight to each object of the array
-biciCorsa.forEach((element) => {
+biciCorsa.forEach((element, index) => {
     const weight = (parseInt(element.peso));
     if (minWeight > weight) {
-        counter++;
+        counter = index;
         minWeight = weight;
     }
-    console.log(minWeight);
+
 });
 
 console.log(`The bike with the less weight is: ${biciCorsa[counter].nome}, with the weight of: ${minWeight}KG`);
