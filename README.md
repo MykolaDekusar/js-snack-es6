@@ -13,3 +13,8 @@ Infine  creiamo un nuovo array i cui elementi contengono solo nomi e falli subit
 --Inizializzo un contatore e un peso iniziale al quale assegno il valore del peso del primo oggetto nell'array
 ---Utilizzando il metodo forEach vado a scansionare tutti gli oggetti presenti nell'array e confronto il loro peso con il peso del mio valore iniziale
 ----Se il peso dell'oggetto nell'array è inferiore al mio peso iniziale allora gli assegno il valore del peso e assegno al mio contatore il valore dell'index attuale
+
+- Snack 2 solution:
+--Creo una funzione di random number che mi crea numeri da 0 a 20
+---Utilizzo il forEach nell'array iniziale di squadre e modifico i valori di puti fatti e falli subiti assegnandogli la funzione di randomNumber
+----Creo un nuovo array e tramite il metodo.map gli ritorno il valore del nome della squadra e dei falli subiti

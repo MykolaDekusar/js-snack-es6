@@ -20,7 +20,7 @@ const biciCorsa = [
     {
         nome: 'Electric',
         peso: '2kg'
-    },
+    }
 ]
 //initialising weight to first bike
 let minWeight = parseInt(biciCorsa[0].peso);
